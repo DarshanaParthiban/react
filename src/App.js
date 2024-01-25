@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComp from './components/functional component/testcomponent';
-import Login from './components/class component/LoginComponent';
+import PropsComponent from './components/functional component/PropertiesComponent';
+import PropsComponent1 from './components/functional component/PropertiesComponents1';
 
 function App() {
   return (
     <div className="App">
+      <PropsComponent name="Darshu" course="Mern"/>
      
-      
       <header className="App-header">
-      <TestComp/>
-      <Login/>
+        <PropsComponent1 location="India" city="Tiruppur"/>
+      
         <img src={logo} className="App-logo" alt="logo" />
         
         <p>
