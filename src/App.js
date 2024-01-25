@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import PropsComponent from './components/functional component/PropertiesComponent';
-import PropsComponent1 from './components/functional component/PropertiesComponents1';
+
+import StateComponent from './components/class component/StateComponent';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <PropsComponent name="Darshu" course="Mern"/>
      
       <header className="App-header">
-        <PropsComponent1 location="India" city="Tiruppur"/>
+        
+        <StateComponent/>
+        
       
         <img src={logo} className="App-logo" alt="logo" />
         
