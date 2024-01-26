@@ -1,4 +1,5 @@
 import React from "react";
+
 class StateComponent extends React.Component{
     constructor(){ //if we declare a variable by using var a=10 it will declare error so constructor is used
         super()
