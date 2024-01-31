@@ -2,8 +2,8 @@ import "../../css/Footer.css"
 const Footer=()=>{
     return(
         <div className="Foot">
-            <h2>Footer</h2>
-            <p>&copy; Darshu</p>
+
+            <p> Contact us:657834908</p>
             <p><a href="mailto:darshanapr.21ece@kongu.edu">CONTACT US</a></p>
         </div>
     )
